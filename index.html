@@ -8,6 +8,10 @@
     </head>
     <body style="background-color:black;">
         <style>
+            h1 {
+                color: white;
+            }
+            
             #countdown {
                 text-align: center;
                 font-size: 100px;
@@ -20,6 +24,10 @@
                 left: 50%;
                 transform: translate(-50%, -50%);
                 padding: 10px;
+            }
+
+            .phrase {
+                text-align: center;
             }
 
             .drop-in {
@@ -74,6 +82,8 @@
                 timer = setInterval(updateCountdown, 1000);
             }
         </script>
+
+        <h1 class="phrase">A New Adventure is Coming Soon...</h1>
         
         <div id="countdown" class="center"></div>
     </body>
