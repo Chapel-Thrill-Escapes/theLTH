@@ -6,52 +6,73 @@
         <title>The Lost Tar Heel</title>
         <style>
             body {
-                display: flex; /* Use flexbox */
-                justify-content: center; /* Center horizontally */
-                align-items: center; /* Center vertically */
-                flex-direction: column; /* Stack children vertically */
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
                 text-align: center;
                 background-color: black;
                 font-family: sans-serif;
-                font-weight: 150;
+                font-weight: 100;
                 color: white;
+                height: 100vh;
+                margin: 0;
             }
             h1 {
                 color: white;
                 font-weight: 100;
-                font-size: 2vw; /* Font size responsive to viewport width */
-                margin: 40px 0px 20px;
+                font-size: 3vw;
+                margin: 20px 0;
             }
             #clockdiv {
                 font-family: sans-serif;
                 color: white;
-                display: inline-block;
+                display: flex;
+                justify-content: center;
                 font-weight: 100;
-                text-align: center;
-                width: 60%; /* Width is 75% of the viewport */
-                margin: 0 auto; /* Center the clockdiv */
+                width: 100%;
+                font-size: 2vw;
             }
             #clockdiv > div {
-                padding: 15px; /* Padding adjusted */
+                padding: 1vw;
                 border-radius: 3px;
                 background: #222;
-                display: inline-block;
-                width: 23%; /* Adjusted for each time segment */
+                width: 25%;
+                text-align: center;
             }
             #clockdiv div > span {
-                padding: 20px; /* Padding adjusted */
+                padding: 1vw;
                 border-radius: 3px;
                 background: #333;
-                display: inline-block;
-                font-size: 4vw; /* Font size responsive to viewport width */
+                display: block;
             }
             .smalltext {
-                padding-top: 10px; /* Padding adjusted */
-                font-size: 1.2vw; /* Font size responsive to viewport width */
+                font-size: 1.2vw;
             }
             #demo {
                 color: red;
-                font-size: 2vw; /* Font size responsive to viewport width */
+                font-size: 2vw;
+            }
+    
+            /* Media query for mobile devices */
+            @media (max-width: 600px) {
+                h1 {
+                    font-size: 5vw;
+                }
+                #clockdiv {
+                    flex-direction: column;
+                    font-size: 5vw;
+                }
+                #clockdiv > div {
+                    width: 80%;
+                    margin: 10px 0;
+                }
+                .smalltext {
+                    font-size: 3vw;
+                }
+                #demo {
+                    font-size: 4vw;
+                }
             }
         </style>
     </head>
