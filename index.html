@@ -24,24 +24,26 @@
                 display: inline-block;
                 font-weight: 100;
                 text-align: center;
-                font-size: 40px; /* Increased font size */
+                width: 75%; /* Set width to 75% of the viewport */
+                margin: 0 auto; /* Center the clockdiv */
             }
             #clockdiv > div {
                 padding: 15px; /* Increased padding */
                 border-radius: 3px;
                 background: #222;
                 display: inline-block;
+                width: 23%; /* Adjust the width of each time segment */
             }
             #clockdiv div > span {
                 padding: 20px; /* Increased padding */
                 border-radius: 3px;
                 background: #333;
                 display: inline-block;
-                font-size: 35px; /* Increased font size */
+                font-size: 4vw; /* Responsive font size based on viewport width */
             }
             .smalltext {
                 padding-top: 10px; /* Increased padding */
-                font-size: 20px; /* Increased font size */
+                font-size: 2vw; /* Responsive font size based on viewport width */
             }
             #demo {
                 color: red;
