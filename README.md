@@ -13,6 +13,6 @@ The centerpiece of `index.html` is the countdown timer, which ticks down to the 
 Stay tuned for updates as we get closer to the launch date!
 
 ---
-For more information and regular updates, please visit our [official website](chapelthrillescapes.com) and follow us on [social media](https://www.instagram.com/chapelthrillescapes/).
+For more information and regular updates, please visit our [official website](https://www.chapelthrillescapes.com/) and follow us on [social media](https://www.instagram.com/chapelthrillescapes/).
 
 Thank you for being a part of this exciting journey!
